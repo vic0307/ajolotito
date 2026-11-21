@@ -1,0 +1,24 @@
+name: ajolotito
+description: Ajolotito hambriento - notificaciones locales bien hechas en Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Parametros con nombre (v20+). Se fija la 22.x: pide compileSdk 36 y AGP 8.x;
+  # la 23 exige compileSdk 37 y AGP 9.
+  flutter_local_notifications: ^22.3.3
+  timezone: ^0.11.0
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
